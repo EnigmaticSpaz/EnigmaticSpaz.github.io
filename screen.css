@@ -18,6 +18,11 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline; }
 
+  h1 {
+    font-size: 8em;
+    color: #ff69b4;
+  }
+
 body {
   line-height: 1; }
 
@@ -56,3 +61,7 @@ a {
 
 #main {
   padding: 50px; }
+<<<<<<< ab94701f12f767807d55d0d6d098e8839d543f8b
+=======
+  
+>>>>>>> Step 6 again
