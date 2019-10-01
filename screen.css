@@ -24,15 +24,16 @@ time, mark, audio, video {
 h1 {
   font-size: 8em;
   color: #dc3545;
+  background-color: #343a40
 }
 
 p {
-  color: #343a40;
+  color: #f8f9fa;
 }
 a {
-  color: #343a40; }
+  color: #fd7e14; }
   a:hover {
-    color: #343a40; }
+    color: #fd7e14; }
   
 body {
   line-height: 1; }
