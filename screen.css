@@ -25,10 +25,12 @@ time, mark, audio, video {
 h1 {
   font-size: 8em;
   color: #dc3545;
+  background-color: #343a40;
 }
 
 p {
   color: #f8f9fa;
+  background-color: #343a40;
 }
 a {
   color: #fd7e14; }
@@ -36,7 +38,8 @@ a {
     color: #fd7e14; }
   
 body {
-  line-height: 1; }
+  line-height: 1; 
+  background-color: #343a40;}
 
 ol, ul {
   list-style: none; }
