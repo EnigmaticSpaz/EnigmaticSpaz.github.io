@@ -17,18 +17,17 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline; 
-  font-family: 'Open+Sans',sans-serif;}
+  font-family: 'Open+Sans',sans-serif;
+  text-align: center;}
 
    
 h1 {
   font-size: 8em;
   color: #dc3545;
-  text-align: center;
 }
 
 p {
   color: #343a40;
-  text-align: center;
 }
 a {
   color: #343a40; }
