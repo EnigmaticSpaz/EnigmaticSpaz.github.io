@@ -21,11 +21,15 @@ time, mark, audio, video {
    
 h1 {
   font-size: 8em;
-  color: orange;
+  color: #dc3545;
+  text-align: center;
+  font-family: 'Open+Sans',sans-serif;
 }
 
 p {
-  color: orange
+  color: #343a40;
+  text-align: center;
+  font-family: 'Open+Sans',sans-serif;
 }
   
 body {
@@ -39,7 +43,7 @@ table {
   border-spacing: 0; }
 
 caption, th, td {
-  text-align: middle;
+  text-align: left;
   font-weight: normal;
   vertical-align: middle; }
 
