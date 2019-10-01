@@ -34,7 +34,7 @@ p {
 a {
   color: #343a40;
   text-align: center;
-  font-size: 0em;
+  
 }
   
 body {
@@ -67,11 +67,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 body {
   font-family: sans-serif;
   color: #2a2a2a; }
-
-a {
-  color: #0388a6; }
-  a:hover {
-    color: #009ce0; }
 
 #main {
   padding: 50px; }
