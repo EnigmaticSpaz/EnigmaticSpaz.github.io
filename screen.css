@@ -18,8 +18,7 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline; 
   font-family: 'Open+Sans',sans-serif;
-  text-align: center;
-  background-color: #343a40;}
+  text-align: center;}
 
    
 h1 {
@@ -30,7 +29,7 @@ h1 {
 
 p {
   color: #f8f9fa;
-  background-color: #343a40;
+  background-image: src "//cache.desktopnexus.com/thumbseg/2234/2234806-bigthumbnail.jpg" alt="Waterfall in winter with Ice and Snow - snow, waterfall, ice, nature, winter";
 }
 a {
   color: #fd7e14; }
