@@ -31,6 +31,11 @@ p {
   text-align: center;
   font-family: 'Open+Sans',sans-serif;
 }
+a {
+  color: #343a40;
+  text-align: center;
+  font-size: 0em;
+}
   
 body {
   line-height: 1; }
