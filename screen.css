@@ -16,20 +16,19 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline; 
+  font-family: 'Open+Sans',sans-serif;}
 
    
 h1 {
   font-size: 8em;
   color: #dc3545;
   text-align: center;
-  font-family: 'Open+Sans',sans-serif;
 }
 
 p {
   color: #343a40;
   text-align: center;
-  font-family: 'Open+Sans',sans-serif;
 }
 a href {
   color: #343a40;
