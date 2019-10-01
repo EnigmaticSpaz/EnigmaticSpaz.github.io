@@ -58,7 +58,7 @@ q, blockquote {
     content: none; }
 
 a img {
-  <img id="bigthumb" src="//cache.desktopnexus.com/thumbseg/2234/2234806-bigthumbnail.jpg" border="1" alt="Waterfall in winter with Ice and Snow - snow, waterfall, ice, nature, winter" style="border-color: #000000"> }
+  border: none; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
