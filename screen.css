@@ -30,11 +30,10 @@ p {
   color: #343a40;
   text-align: center;
 }
-a href {
-  color: #343a40;
-  text-align: center;
-  line-height: 1;
-}
+a {
+  color: #343a40; }
+  a:hover {
+    color: #343a40; }
   
 body {
   line-height: 1; }
