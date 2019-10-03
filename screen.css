@@ -23,6 +23,7 @@ time, mark, audio, video {
    
 h1 {
   font-size: 6em;
+  font-style: italic;
   color: #dc3545;
   background-color: #343a40;
 }
