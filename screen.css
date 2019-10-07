@@ -76,6 +76,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 #main {
   padding: 50px; }
 
-  div {
-    padding: 1em;
-  }
+div {
+  padding: 1em;
+}
