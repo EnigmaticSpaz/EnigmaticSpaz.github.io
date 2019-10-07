@@ -46,7 +46,9 @@ p {
 a {
   color: #fd7e14; }
   a:hover {
-    color: #fd7e14; }
+    color: #fd7e14; 
+    padding: 1em;
+}
 
 ol, ul {
   list-style: none; }
