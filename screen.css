@@ -22,18 +22,17 @@ time, mark, audio, video {
 body {
   line-height: 1; 
   background-color: #343a40;
-  color: #343a40;
+  color: #f8f9fa;
   width: 50em;
   margin: 0 auto;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
    
 h1 {
   font-size: 6em;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-style: italic;
   color: #dc3545;
   background-color: #343a40;
-  padding: 10px;
+
 }
 
 h2 {
@@ -70,12 +69,16 @@ q, blockquote {
 a img {
   border: none; }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+article, aside, details, figcaption, figure, header, hgroup, menu, nav, section, summary {
   display: block; }
 
 #main {
   padding: 50px; }
 
 div {
-  padding: 1em;
+  padding: 5px;
+}
+
+footer {
+  background-color: #343a40;
 }
