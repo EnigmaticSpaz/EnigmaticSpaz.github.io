@@ -19,6 +19,13 @@ time, mark, audio, video {
   font-style: italic;
   text-align: center;}
 
+body {
+  line-height: 1; 
+  background-color: #343a40;
+  color: #343a40;
+  width: 50em;
+  margin: 0 auto;
+}
    
 h1 {
   font-size: 6em;
@@ -26,24 +33,21 @@ h1 {
   font-style: italic;
   color: #dc3545;
   background-color: #343a40;
+  padding: 10px;
 }
+
+h2 {
+  color: #f8f9fa;
+  }
 
 p {
   color: #f8f9fa;
   }
 
-  h2 {
-    color: #f8f9fa;
-    }
-
 a {
   color: #fd7e14; }
   a:hover {
     color: #fd7e14; }
-  
-body {
-  line-height: 1; 
-  background-color: #343a40;}
 
 ol, ul {
   list-style: none; }
@@ -69,11 +73,9 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
-body {
-  font-family: sans-serif;
-  color: #343a40; }
-
 #main {
   padding: 50px; }
-  h1 {
- 
+
+  div {
+    padding: 1em
+  }
