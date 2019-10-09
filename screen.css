@@ -45,10 +45,8 @@ p {
   }
 
 a {
-  color: #fd7e14; }
-  a:hover {
-    color: #fd7e14; 
-    padding: 1em;
+  color: #fd7e14;
+  padding: 1em;
 }
 
 ol, ul {
