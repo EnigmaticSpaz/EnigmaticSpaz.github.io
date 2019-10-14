@@ -4,8 +4,8 @@
 //     }
 //   })
 $( document ).ready(function() {
-$( "#mainHeader" ).click(function() {
-    $( "#mainHeader" ).fadeOut( "slow", function() {
+$( "#fadeButton" ).click(function() {
+    $( "#all" ).fadeOut( "slow", function() {
     });
 });
 });
