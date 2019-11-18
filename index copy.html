@@ -6,13 +6,17 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Liss</title>
-<!-- CSS & Stylesheet -->
+    <!-- style -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="screen.css" media="screen" rel="stylesheet" type="text/css" />
+   <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- js -->
+    <script src="main.js"></script>
   </head>
-  <body>
+  <body id="all">
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="#">More</a>
+      <!-- <a class="navbar-brand" href="#">More</a> -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -20,24 +24,24 @@
         <ul class="navbar-nav mr-auto">
           <!-- <li class="nav-item active">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
           </li> -->
-          <li class="nav-item dropdown">
+          <li class="nav-item">
+            <a class="nav-link" href="deadlink" target="_blank">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/EnigmaticSpaz/EnigmaticSpaz.github.io" target="_blank">Source Repository</a>
+          </li>
+          <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Additional Links</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
               <a class="dropdown-item" href="deadlink" target="_blank">Resume</a>
               <a class="dropdown-item" href="https://github.com/EnigmaticSpaz/EnigmaticSpaz.github.io" target="_blank">Source Repository</a>
             </div>
-          </li>
+          </li> -->
         </ul>
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          <button style="background-color: #343a40;color:#fd7e14;border-color:#dc3545" class="btn btn-outline-success my-2 my-sm-0"  type="submit">Search</button>
         </form>
       </div>
     </nav>
@@ -45,8 +49,8 @@
 <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron" style="background-color: #343a40">
         <div class="container">
-          <h1 class="display-3">Liss Meehan</h1>
-          <p>Bend Native and Tech Enthusiast.</p>
+          <h1 id="mainHeader" class="display-3">Liss Meehan</h1>
+          <p>I am a first-year Computer Science student. I transferred with my AAOT from Central Oregon Cummunity College and I'm a Bend Native.</p>
         </div>
 <!-- Photo scroll -->
           <div id="two" style="background-color: #fd7e14" >
@@ -57,7 +61,7 @@
               <img src="waterfall.jpg" alt="waterfall with a rocky background" width="347" height="260">
             </marquee>
           </div>
-        <p style="padding: 1em"><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+        <p style="padding: 1em"><a id="fadeButton" class="btn btn-primary btn-lg" href="#" role="button">Abracadabra &raquo;</a></p>
       </div>
       <div class="container">
 <!-- Example row of columns -->
@@ -80,14 +84,12 @@
         </div>
         <hr>
       </div>  -->
-<!-- /container -->
-    CS Project: 2019
     </main>
     <footer class="container">
-      <p>&copy; Liss</p>
+      <p>&copy; Liss 2019</p>
     </footer>
 <!-- Bootstrap core JavaScript placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
