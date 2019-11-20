@@ -23,7 +23,6 @@ body {
   line-height: 1; 
   background-color: #343a40;
   color: #f8f9fa;
-  width: 50em;
   margin: 0 auto;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -32,21 +31,24 @@ h1 {
   font-size: 6em;
   color: #dc3545;
   background-color: #343a40;
+  padding: 5px;
 
 }
 
 h2 {
   color: #f8f9fa;
+  padding: 5px;
   }
 
 p {
   color: #f8f9fa;
   background-color: #343a40;
+  padding: 5px;
   }
 
 a {
   color: #fd7e14;
-  padding: 1em;
+  padding: 5px;
 }
 
 ol, ul {
