@@ -79,22 +79,15 @@
                 <p>A visualization of monthly bike rentals in Bend, Oregon.</p>
               </div>
               <div class="column" style="width: 35%;">
-                <div style="text-align:center">
+                <div style="text-align:center; padding: 1.25em;">
                   <h2 style="font-size: 1.5em;color: ivory;">Contact Me!</h2>
-                  <p>I'd love to hear from you:</p>
+                  <p style="color: ivory;">I'd love to hear from you</p>
                 </div>
-                <form action="/action_page.php">
-                  <label for="fname">First Name</label>
-                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                  <label for="lname">Last Name</label>
-                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                  <label for="email">Email</label>
-                  <input type="text" id="email" name="email" placeholder="Your email..">
-                  <label for='phone'>Phone</label>
-                  <input type="text" id="phone" name="phone" placeholder="Your phone..">
-                  <label for="subject">What's up?</label>
-                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-                  <input type="submit" value="Submit">
+                <form action="mail.php" method="POST">
+                  <p>Name</p> <input type="text" name="name">
+                  <p>Email</p> <input type="text" name="email">
+                  <p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+                  <input type="submit" value="Send"><input type="reset" value="Clear">
                 </form>
               </div>
             </div>

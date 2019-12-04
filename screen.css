@@ -99,7 +99,7 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
-input[type=submit] {
+/* input[type=submit] {
   background-color: #fd7e14;
   color: white;
   padding: 12px 20px;
@@ -109,6 +109,18 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #fd7e14;
+}
+
+input[type=reset] {
+  background-color: #fd7e14;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=reset]:hover {
+  background-color: #fd7e14; */
 }
 
 /* Style the container/contact section */
