@@ -83,12 +83,55 @@
                   <h2 style="font-size: 1.5em;color: ivory;">Contact Me!</h2>
                   <p style="color: ivory;">I'd love to hear from you</p>
                 </div>
-                <form action="mail.php" method="POST">
-                  <p>Name</p> <input type="text" name="name">
-                  <p>Email</p> <input type="text" name="email">
-                  <p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
-                  <input type="submit" value="Send"><input type="reset" value="Clear">
-                </form>
+                <form name="contactform" method="post" action="mail.php">
+                  <table width="450px">
+                  <tr>
+                   <td valign="top">
+                    <label for="first_name">First Name</label>
+                   </td>
+                   <td valign="top">
+                    <input  type="text" name="first_name" maxlength="50" size="30">
+                   </td>
+                  </tr>
+                  <tr>
+                   <td valign="top">
+                    <label for="last_name">Last Name</label>
+                   </td>
+                   <td valign="top">
+                    <input  type="text" name="last_name" maxlength="50" size="30">
+                   </td>
+                  </tr>
+                  <tr>
+                   <td valign="top">
+                    <label for="email">Email</label>
+                   </td>
+                   <td valign="top">
+                    <input  type="text" name="email" maxlength="80" size="30">
+                   </td>
+                  </tr>
+                  <tr>
+                   <td valign="top">
+                    <label for="telephone">Phone</label>
+                   </td>
+                   <td valign="top">
+                    <input  type="text" name="telephone" maxlength="30" size="30">
+                   </td>
+                  </tr>
+                  <tr>
+                   <td valign="top">
+                    <label for="comments">Message</label>
+                   </td>
+                   <td valign="top">
+                    <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td colspan="2" style="text-align:center">
+                    <input type="submit" value="Submit">   <a href="http://www.freecontactform.com/email_form.php"></a>
+                   </td>
+                  </tr>
+                  </table>
+                  </form>
               </div>
             </div>
           </div>
