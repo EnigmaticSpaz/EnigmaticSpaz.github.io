@@ -24,18 +24,26 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accounts</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="https://www.linkedin.com/in/alissa-n-meehan/" target="_blank">Linked In</a>              
-              <a class="dropdown-item" href="https://stackoverflow.com/story/liss_m" target="_blank">Stack Overflow</a>
-              <a class="dropdown-item" href="https://github.com/enigmaticspaz" target="_blank">GitHub</a>
+              <a class="dropdown-item" href="https://www.linkedin.com/in/alissa-n-meehan/" target="_blank">
+                <img src="linkedinlogo.png" href="Linked In account" width="80" height="80">
+              </a>              
+              <a class="dropdown-item" href="https://stackoverflow.com/story/liss_m" target="_blank">
+                <img src="stackoverflowlogo.png" alt="Stack overflow account" height="80" width="80">
+              </a>
+              <a class="dropdown-item" href="https://github.com/enigmaticspaz" target="_blank">
+                <img src="githublogo.png" alt="github account" width="80" height="80">
+              </a>
             </div>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="https://enigmaticspaz.github.io/zagster-client/" target="_blank">Zagster
-                <img src="zagster.jpg" alt="Data chart" width="95" height="95">
-              </a>
               <a class="dropdown-item" href="https://github.com/EnigmaticSpaz/EnigmaticSpaz.github.io" target="_blank">This Site's Repository</a>
+              <a class="dropdown-item" href="https://enigmaticspaz.github.io/zagster-client/" target="_blank">Zagster Chart
+                <div class="img-container" style="text-align: center;">
+                  <img src="zagster.jpg" alt="Data chart" width="100" height="100">
+                </div>
+              </a> 
             </div>
           </li>
         </ul>
@@ -83,55 +91,25 @@
                   <h2 style="font-size: 1.5em;color: ivory;">Contact Me!</h2>
                   <p style="color: ivory;">I'd love to hear from you</p>
                 </div>
-                <form name="contactform" method="post" action="mail.php">
-                  <table width="450px">
-                  <tr>
-                   <td valign="top">
-                    <label for="first_name">First Name</label>
-                   </td>
-                   <td valign="top">
-                    <input  type="text" name="first_name" maxlength="50" size="30">
-                   </td>
-                  </tr>
-                  <tr>
-                   <td valign="top">
-                    <label for="last_name">Last Name</label>
-                   </td>
-                   <td valign="top">
-                    <input  type="text" name="last_name" maxlength="50" size="30">
-                   </td>
-                  </tr>
-                  <tr>
-                   <td valign="top">
-                    <label for="email">Email</label>
-                   </td>
-                   <td valign="top">
-                    <input  type="text" name="email" maxlength="80" size="30">
-                   </td>
-                  </tr>
-                  <tr>
-                   <td valign="top">
-                    <label for="telephone">Phone</label>
-                   </td>
-                   <td valign="top">
-                    <input  type="text" name="telephone" maxlength="30" size="30">
-                   </td>
-                  </tr>
-                  <tr>
-                   <td valign="top">
-                    <label for="comments">Message</label>
-                   </td>
-                   <td valign="top">
-                    <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
-                   </td>
-                  </tr>
-                  <tr>
-                   <td colspan="2" style="text-align:center">
-                    <input type="submit" value="Submit">   <a href="http://www.freecontactform.com/email_form.php"></a>
-                   </td>
-                  </tr>
-                  </table>
-                  </form>
+                <div class="form">
+                  <form id="myform" name="myform" action="mail.php" method="post">
+                  <label>Name</label>
+                  
+                  <input type="text" name="name" id="name" />                 
+                  <label>E-mail</label>
+                  <input type="text" name="email" id="email" />
+                  
+                  <label>Phone</label>
+                  <input type="text" name="phone" id="phone" />
+                  
+                  <label>Message</label>
+                  <textarea name="message" rows="5" cols="60"></textarea>
+                  
+                  <button name="send" type="submit">send</button>
+                  <button name="reset" type="reset">reset</button>
+                  <div class="spacer"></div>
+                  </form><!--end myform div-->
+                  </div><!--end form div-->  
               </div>
             </div>
           </div>
