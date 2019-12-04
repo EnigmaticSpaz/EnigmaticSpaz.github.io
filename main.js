@@ -3,9 +3,9 @@
 //         window.location.href = “http://google.com/”; 
 //     }
 //   })
-$( document ).ready(function() {
-$( "#fadeButton" ).click(function() {
-    $( "#all" ).fadeOut( "slow", function() {
-    });
-});
-});
+// $( document ).ready(function() {
+// $( "#fadeButton" ).click(function() {
+//     $( "#all" ).fadeOut( "slow", function() {
+//     });
+// });
+// });
